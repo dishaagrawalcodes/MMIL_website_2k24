@@ -57,7 +57,7 @@ const EventCard = styled.div`
         grid-column:1/2;
         grid-row:1/2;
         transform:translateX(0);
-        height:400px;
+        // height:400px;
       }
     `}
   ${({ variant }) =>
@@ -66,7 +66,7 @@ const EventCard = styled.div`
       grid-column: 1;
       grid-row: 2;
       transform: translateX(24vh);
-      margin: -4vh auto;
+      margin: 0 auto;
       @media (max-width:780px){
         grid-column:1/2;
         grid-row:2/3;
